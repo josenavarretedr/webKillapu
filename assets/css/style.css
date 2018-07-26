@@ -1,0 +1,84 @@
+/*Extra small devices (portrait phones, less than 576px)
+ No media query since this is the default in Bootstrap */
+
+nav {
+    background: #004E92;
+}
+
+nav .container>* {
+    color: #fff !important;
+}
+
+.social-Logo a{
+    font-size: 1.5rem;
+    margin: 0 .5rem;
+}
+
+.sectionFull {
+    min-height: calc(100vh - 56px);
+    /*min-height: 100vh;*/
+}
+
+#home-text {
+    background: url(../img/fondoHome.svg);
+    background-repeat: repeat;
+}
+
+#home-text .container>* {
+    color: #fff;
+}
+
+#metodo {
+    background: #92CDD1;
+}
+
+#metodo .container .row {}
+
+#metodo-img {
+    height: 100%;
+}
+
+#metodo-img img {
+    height: 100%;
+    width: 100%;
+}
+
+#contact{
+    background: #FFBA4E;
+}
+
+#contactIcons a img{
+    height: 30px;
+}
+
+
+#submitContactForm {
+    background: #FF8154;
+    color: #fff;
+}
+
+footer{
+	font-size: .8rem;
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+    .social-Logo a{
+        margin: 0;
+    }
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+    
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+    ...
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+    ...
+}
