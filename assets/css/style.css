@@ -32,13 +32,20 @@ nav .container>* {
     background: #92CDD1;
 }
 
-#metodo .container .row {}
-
 #metodo-img {
     height: 100%;
 }
 
 #metodo-img img {
+    height: 100%;
+    width: 100%;
+}
+
+.metodo-imgs {
+    height: 100%;
+}
+
+.metodo-imgs img {
     height: 100%;
     width: 100%;
 }
@@ -75,10 +82,10 @@ footer{
 
 /*Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
-    ...
+    
 }
 
 /*Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {
-    ...
+    
 }
