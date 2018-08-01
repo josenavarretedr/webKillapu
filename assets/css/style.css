@@ -50,6 +50,22 @@ nav .container>* {
     width: 100%;
 }
 
+#method1{
+    background-color: #FFF1D9;
+}
+
+#method2 {
+    background-color: #83D1F5;
+}
+
+#method3{
+    background-color: #E0E4ED;
+}
+
+#method4{
+    background-color: #4966B7;
+}
+
 #contact{
     background: #FFBA4E;
 }
