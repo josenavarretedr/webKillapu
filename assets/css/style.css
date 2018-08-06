@@ -1,6 +1,8 @@
 /*Extra small devices (portrait phones, less than 576px)
  No media query since this is the default in Bootstrap */
-
+body {
+  font-weight: 300;
+}
 nav {
   background: #004e92;
 }
@@ -99,7 +101,7 @@ nav .container > * {
 #tinki-home h2 {
   display: block;
   z-index: 100;
-  font-weight: 400;
+  font-weight: 300;
   line-height: .6;
 }
 
@@ -107,32 +109,97 @@ nav .container > * {
   font-size: 0.9rem;
 }
 
-.tinki-details-img{
-  width: 100%;
+#tinki-description-ul {
+  padding: 0;
+}
+
+#tinki-description-ul li{
+  font-weight: 300;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 5px 7px;
+  text-transform: capitalize;
+  background: #8fd3ff;
+  display: inline-block;
+}
+
+.tinki-details-text h3,
+.asti-details-text h3,
+.kapp-details-text h3{
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+.tinki-details-img,
+.asti-details-img,
+.kapp-details-img{
+  width: 80%;
 }
 
 #asti-home{
   min-height: 75vh;
   background-color: #A3DFEF;
-
 }
 
-#asti-home img{
+#asti-home img,
+#kapp-home img{
   width: 100%;;
 }
 
-#asti-home-text{
+#asti-home-text,
+#kapp-home-text{
   text-align: center;
 }
 
-#asti-home-text h2{
+#asti-home-text h2,
+#kapp-home-text h2{
   font-size: 3.5rem;
   font-weight: 400;
   line-height: 1;
 }
 
-#asti-home-text h2 small{
+#asti-home-text h2 small,
+#kapp-home-text h2 small{
   font-size: 2rem;
+}
+
+#asti-home-text h2 small {
+  background: #000;
+  color: #A3DFEF !important;
+  padding: 2px 10px;
+}
+
+#asti-description-ul ,
+#kapp-description-ul{
+  padding: 0;
+}
+
+#asti-description-ul li,
+#kapp-description-ul li{
+  font-weight: 300;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 5px 7px;
+  text-transform: capitalize;
+  background: #A3DFEF;
+  display: inline-block;
+}
+
+#kapp-home{
+  color: #fff;
+  background-color: #FF9B80;
+}
+
+#kapp-home-text h2 small{
+  /*color: #E9ECEF;*/
+  background: #fff;
+  color: #FF9B80;
+  padding: 2px 10px;
+
+}
+
+#kapp-description-ul li{
+  background: #FF9B80;
 }
 
 footer {
@@ -142,7 +209,7 @@ footer {
 /*Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {
   body {
-    background: red;
+    /*background: red;*/
   }
   .social-Logo a {
     margin: 0;
@@ -154,7 +221,6 @@ footer {
 
   #tinki-home h2 {
     font-size: 4rem;
-    font-weight: 300;
     line-height: .5;
   }
 
@@ -162,15 +228,18 @@ footer {
     font-size: 1.2rem;
   }
 
-  #asti-home-text{
+  #asti-home-text,
+  #kapp-home-text{
     text-align: right;
   }
 
-  #asti-home-text h2{
+  #asti-home-text h2,
+  #kapp-home-text h2{
     font-size: 4.5rem;
   }
   
-  #asti-home-text h2 small{
+  #asti-home-text h2 small,
+  #kapp-home-text h2 small{
     font-size: 2.5rem;
   }
 }
@@ -178,14 +247,18 @@ footer {
 /*Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
   body {
-    background: green;
+    /*background: green;*/
+  }
+
+  .tinki-details-img{
+    width: 100%;
   }
 }
 
 /*Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
   body {
-    background: blue;
+    /*background: blue;*/
   }
 }
 
