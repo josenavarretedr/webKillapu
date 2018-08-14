@@ -84,6 +84,16 @@ nav .container > * {
   color: #fff;
 }
 
+#formSuccess{
+  display: none;
+  background: #28A745;
+  border-radius: 10px;
+  color: #fff;
+  padding: 5px;
+  font-size: .75rem;
+  font-weight: bold;
+}
+
 #tinki-home {
   min-height: 75vh;
   background: #8fd3ff;
