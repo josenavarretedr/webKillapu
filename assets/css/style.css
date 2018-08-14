@@ -146,7 +146,7 @@ nav .container > * {
 #asti-home img,
 #kapp-home img,
 #yampa-home img{
-  width: 100%;;
+  width: 100%;
 }
 
 #asti-home-text,
@@ -278,10 +278,6 @@ footer {
 @media (min-width: 768px) {
   body {
     /*background: green;*/
-  }
-
-  .tinki-details-img{
-    width: 100%;
   }
 }
 
