@@ -125,14 +125,16 @@ nav .container > * {
 
 .tinki-details-text h3,
 .asti-details-text h3,
-.kapp-details-text h3{
+.kapp-details-text h3,
+.yampa-details-text h3{
   font-size: 1.4rem;
   font-weight: 400;
 }
 
 .tinki-details-img,
 .asti-details-img,
-.kapp-details-img{
+.kapp-details-img,
+.yampa-details-img{
   width: 80%;
 }
 
@@ -142,24 +144,28 @@ nav .container > * {
 }
 
 #asti-home img,
-#kapp-home img{
+#kapp-home img,
+#yampa-home img{
   width: 100%;;
 }
 
 #asti-home-text,
-#kapp-home-text{
+#kapp-home-text,
+#yampa-home-text{
   text-align: center;
 }
 
 #asti-home-text h2,
-#kapp-home-text h2{
+#kapp-home-text h2,
+#yampa-home-text h2{
   font-size: 3.5rem;
   font-weight: 400;
   line-height: 1;
 }
 
 #asti-home-text h2 small,
-#kapp-home-text h2 small{
+#kapp-home-text h2 small,
+#yampa-home-text h2 small{
   font-size: 2rem;
 }
 
@@ -170,12 +176,14 @@ nav .container > * {
 }
 
 #asti-description-ul ,
-#kapp-description-ul{
+#kapp-description-ul,
+#yampa-description-ul{
   padding: 0;
 }
 
 #asti-description-ul li,
-#kapp-description-ul li{
+#kapp-description-ul li,
+#yampa-description-ul li{
   font-weight: 300;
   border-radius: 5px;
   margin: 5px;
@@ -195,11 +203,26 @@ nav .container > * {
   background: #fff;
   color: #FF9B80;
   padding: 2px 10px;
-
 }
 
 #kapp-description-ul li{
   background: #FF9B80;
+}
+
+#yampa-home{
+  color: #fff;
+  background-color: #B3C6F3;
+}
+
+#yampa-home-text h2 small{
+  /*color: #E9ECEF;*/
+  background: #fff;
+  color: #B3C6F3;
+  padding: 2px 10px;
+}
+
+#yampa-description-ul li{
+  background: #B3C6F3;
 }
 
 footer {
@@ -229,17 +252,24 @@ footer {
   }
 
   #asti-home-text,
-  #kapp-home-text{
+  #yampa-home-text{
     text-align: right;
   }
 
+
+  #kapp-home-text{
+    text-align: left;
+  }
+
   #asti-home-text h2,
-  #kapp-home-text h2{
+  #kapp-home-text h2,
+  #yampa-home-text h2{
     font-size: 4.5rem;
   }
   
   #asti-home-text h2 small,
-  #kapp-home-text h2 small{
+  #kapp-home-text h2 small,
+  #yampa-home-text h2 small{
     font-size: 2.5rem;
   }
 }
