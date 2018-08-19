@@ -22,13 +22,3 @@ $('#gform').submit(function(e) {
     data: $form.serializeObject()
   }).success(resultadosForm());
 });
-
-// $('#submit-form').on('click', function(e) {
-//   e.preventDefault();
-//   var jqxhr = $.ajax({
-//     url: url,
-//     method: "POST",
-//     dataType: "json",
-//     data: $form.serializeObject()
-//   }).success(resultadosForm());
-// });
